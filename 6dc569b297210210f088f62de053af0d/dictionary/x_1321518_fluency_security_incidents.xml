@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4f2621f297210210f088f62de053af2b" label="Security Incidents" max_length="40" name="x_1321518_fluency_security_incidents" type="collection">
+        <element display="true" label="Behavior Rules" max_length="100" name="behavior_rules" type="string"/>
+        <element label="Count" max_length="40" name="count" type="string"/>
+        <element label="From" max_length="40" name="from" type="string"/>
+        <element label="ID" max_length="100" name="id" type="string"/>
+        <element label="Key" max_length="100" name="key" type="string"/>
+        <element label="Key Type" max_length="40" name="key_type" type="string"/>
+        <element label="Risks" max_length="100" name="risks" type="string"/>
+        <element label="Risk Score" max_length="40" name="risk_score" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Acknowledged" sequence="1" value="acknowledged"/>
+                <element inactive_on_update="false" label="Resolved" sequence="2" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="To" max_length="40" name="to" type="string"/>
+        <element label="Updated On" max_length="40" name="updated_on" type="string"/>
+        <element label="URL" max_length="100" name="url" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
