@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4f2621f297210210f088f62de053af2b" label="Security Incidents" max_length="40" name="x_1321518_fluency_security_incidents" type="collection">
-        <element display="true" label="Behavior Rules" max_length="100" name="behavior_rules" type="string"/>
+        <element display="true" label="Behavior Rules" max_length="100" name="behavior_rules" type="glide_list"/>
         <element label="Count" max_length="40" name="count" type="integer"/>
         <element label="From" max_length="40" name="from" type="insert_timestamp"/>
         <element label="ID" max_length="100" name="id" type="string"/>
