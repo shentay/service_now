@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-04-17 14:41:42</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-24 14:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36bfa14997310210f088f62de053af43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1321518_fluency_security_incidents" name="x_1321518_fluency_security_incidents" sys_domain="global" view="Default view">2778a97697210210f088f62de053afdb</sys_ui_form>
+            <sys_ui_section caption="Description" display_value="Description" name="x_1321518_fluency_security_incidents" sys_domain="global" view="Default view">eabfa14997310210f088f62de053af3f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-24 14:59:38</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1321518_fluency_security_incidents</name>
             <roles/>
